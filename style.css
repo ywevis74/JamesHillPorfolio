@@ -374,3 +374,19 @@ header {
     border: 6px solid #C5A100 !important;  /* gold border */
     box-shadow: 0 0 15px rgba(45, 59, 42, 0.6); /* army green glow */
 }
+
+
+/* Accent camo bar between sections */
+.section {
+    border-top: 40px solid transparent;
+    background-image: url('assets/accent_bar.jpg');
+    background-repeat: repeat-x;
+    background-position: top;
+}
+
+/* Footer band with flag and Army emblem */
+footer {
+    background: url('assets/footer_band.jpg') center/cover no-repeat;
+    color: white !important;
+}
+footer a { color: #fff !important; }
