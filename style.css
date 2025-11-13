@@ -384,9 +384,11 @@ header {
     background-position: top;
 }
 
-/* Footer band with flag and Army emblem */
 footer {
-    background: url('assets/footer_band.jpg') center/cover no-repeat;
-    color: white !important;
+  border-top: 1px solid #e5e7eb;
+  padding: 1.2rem 1.5rem 2rem;
+  color: #6b7280;
+  font-size: 0.85rem;
 }
-footer a { color: #fff !important; }
+
+footer a { color: inherit; }
