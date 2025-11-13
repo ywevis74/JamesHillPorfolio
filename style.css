@@ -17,14 +17,16 @@ a {
   color: inherit;
 }
 
+
 header {
-  background: #2D3B2A;
+  background: url('assets/header_camo.jpg') center/cover no-repeat !important;
   color: #f9fafb;
   padding: 1rem 1.5rem;
   position: sticky;
   top: 0;
   z-index: 10;
 }
+
 
 .nav-container {
   max-width: 960px;
@@ -207,11 +209,16 @@ main {
   border: 1px solid #e5e7eb;
 }
 
-.resume-header {
-  border-bottom: 1px solid #e5e7eb;
-  padding-bottom: 0.75rem;
-  margin-bottom: 1rem;
+.resume-
+header {
+  background: url('assets/header_camo.jpg') center/cover no-repeat !important;
+  color: #f9fafb;
+  padding: 1rem 1.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
+
 
 .resume-header h1 {
   font-size: 1.6rem;
@@ -345,9 +352,16 @@ footer {
     grid-template-columns: 1fr;
   }
 
-  header {
-    position: static;
-  }
+  
+header {
+  background: url('assets/header_camo.jpg') center/cover no-repeat !important;
+  color: #f9fafb;
+  padding: 1rem 1.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
 
   nav ul {
     gap: 0.5rem;
